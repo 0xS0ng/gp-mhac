@@ -1,0 +1,18 @@
+[package]
+name = "gp-mhac"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "GP-MHAC anonymous credentials and benchmarks over BLS12-381"
+repository = "https://github.com/0xS0ng/gp-mhac"
+readme = "README.md"
+keywords = ["credentials", "bbs", "secret-sharing", "cryptography"]
+categories = ["cryptography"]
+
+[dependencies]
+ark-bls12-381 = "0.4"
+ark-ec = "0.4"
+ark-ff = "0.4"
+ark-serialize = "0.4"
+ark-std = { version = "0.4", features = ["getrandom"] }
+sha2 = "0.10"
